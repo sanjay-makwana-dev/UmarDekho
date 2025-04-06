@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UmarDekho.Core\UmarDekho.Core.csproj" />
-    <ProjectReference Include="..\UmarDekho.Services\UmarDekho.Services.csproj" />
+    <ProjectReference Include="..\UmarDekho.Web.Client\UmarDekho.Web.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.12" />
   </ItemGroup>
 
 </Project>
